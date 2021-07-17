@@ -1,0 +1,128 @@
+{
+    "intents":[
+        {
+            "tag":"greetings",
+            "patterns":["hey","hi","hello","how are you","good day","greetings","what's up","how's it going"],
+            "responses":["Hello!","Hey!","What can I do for you","Chatly at your service"]
+        },
+        {
+            "tag":"goodbye",
+            "patterns":["cya","see you later","goodbye","have a good day","i'm leaving"],
+            "responses":["Have a nice day","Remember, I'm always here to help","Talk to you later"]
+        },
+        {
+            "tag":"name",
+            "patterns":["what is your name?","do you have a name?","who are you","age?"],
+            "responses":["I'm Chatly, your ABU assistant","You can call me Chatly!","I am Chatly, the encyclopedia of ABU :)"]
+        },
+        {
+            "tag":"numberofdepartments",
+            "patterns":["How many departments are there in ABU? ","How many science courses do ABU offer? ","How Many Art courses do ABU offer?"],
+            "responses":["There are 82 departments in ABU","There are 15 faculties, 82 departments in ABU", "Presently there are 99 departments in ABU Zaria"]
+        },
+        {
+            "tag":"jambcutoffmark",
+            "patterns":["What is the Jamb cut off mark","What is the minimum Jamb score","I scored 180 in Jamb, can I get admission?","Do I need more than 180 in Jamb?", "What is the cut of mark of ABU?"],
+            "responses":["The general cutoff mark is 180, but it varies for some departments ","180 is the cutoff mark with the exception of some departments ","Cutoff marks varies with how competitive a department is, but the general is 180", "The cut off mark of ABU is 180 and above ","The cutoff mark of Engineering is 190 and above","The cut off mark is highly dependent on the course you applied for but the minimum mark to secure your admission is 180"]
+        },
+        {
+            "tag":"schoolidcard",
+            "patterns":["How and where can I get my school ID Card?"],
+            "responses":["You can get your school ID from your portal (https://portal.abu.edu.ng) "," You will download the soft copy from your portal and take it to security office for the hard copy"]
+        },
+        {
+            "tag":"placesforstudy",
+            "patterns":["where can one read at night"],
+            "responses":["There are many places where you can read, Pa Ishaku is a very nice place for studying at night", "There are a lot of classes and libraries, KIL is one of the most popular"]
+        },
+        {
+            "tag":"handoutsandmaterials",
+            "patterns":["Where can I buy most of my materials and handouts? "],
+            "responses":["Old Biology Lab (OBL)", "You can get the study materials you want within your Faculty"]
+        },
+        {
+            "tag":"chemistryfor100level",
+            "patterns":["What is the best type of material for chemistry, 100 level students? "],
+            "responses":["Abu Hanifah Chemistry Text Books", "There are a lot of Chemistry material that can get you up and running but Abu Hanifah copy is popular among students"]
+        },
+        {
+            "tag":"campuses",
+            "patterns":["How many campuses does ABU have?"],
+            "responses":["ABU have two campuses","Main Campus Samaru and Kongo Campus"]
+        },
+        {
+            "tag":"founder",
+            "patterns":["Who is the founder of ABU"],
+            "responses":["Sir Ahmadu Bello Sardauna of Sokoto", "Ahmadu Bello, Northern Premier"]
+        },
+        {
+            "tag":"founded",
+            "patterns":["When was ABU founded"],
+            "responses":["ABU was founded 4th October, 1962"]
+        },
+        {
+            "tag":"website",
+            "patterns":["Does ABU have any websites","How can i search about ABU","Is ABU online"],
+            "responses":["ABU have website and it contains many subdomain: https://abu.edu.ng","Here: https://abu.edu.ng"]
+        },
+        {
+            "tag":"faculties",
+            "patterns":["How many many faculties does ABU have"],
+            "responses":["ABU have 12 faculties","12, Administration, Agriculture, Arts, Education, Engineering, Environmental Design, Law, LifeScience, Physical Science, Pharmaceutical Science, Social Science and Veterinary Medicine"]
+        },
+        {
+            "tag":"schoolsandcolleges",
+            "patterns":["ABU Schools and Colleges","Does ABU have Schools or College"],
+            "responses":["Yes, there is College of Medicine and many others","There is School of Postgraduate Studies and others","School of Basics and Remedial Studies and many others","ABU has Division of Agricultural College and other colleges and divisions","There is ABU Business School and others"]
+        },
+        {
+            "tag":"aboutcourses",
+            "patterns":["Most hardest Course in ABU"],
+            "responses":["Students believed Veterinary Medicine is one of the hardest, Medicine and Engineering"]
+        },
+        {
+            "tag":"postutme",
+            "patterns":["How to register for ABU Post UTME","Does ABU do Post UTME"],
+            "responses":["Yes, you can register at: https://putme.abu.ng","Visit https://putme.abu.edu.ng to register for Post UTME"]
+        },
+        {
+            "tag":"thingstodo",
+            "patterns":["what are the best things I should do if I want to have good grades"],
+            "responses":["Try as much as possible to attend lectures and make sure you revisit what you learned in class", "Make friends that would help you become what your guardians would be proud"]
+        },
+        {
+            "tag":"expulsion",
+            "patterns":["what are the things that could lead to expulsion in ABU"],
+            "responses":["There are many things that could lead to expulsion, here are few among them: Exam malpractice, fighting , involving oneself in cultism etc"]
+        },
+        {
+            "tag":"hodelectrical",
+            "patterns":["Who is the HOD electrical ","HOD electrical engineering ","Name of the head of department of electrical engineering"],
+            "responses":["Professor Jibrin Yusuf ","It is Prof. Jibrin Yusuf"]
+        },
+        {
+            "tag":"institute",
+            "patterns":["Does any have any ABU Institute"],
+            "responses":["Yes, there are are Inst. of Administration, Inst. of Agriculture., Iya Abubakar Inst. of ICT, Inst. of Dev. Research and Training, Inst. of Education, Nat. Animal Production Research Inst"]
+        },
+        {
+            "tag":"postutmevenues",
+            "patterns":["Where are the venues for Post UTME","What are the CBT centre for ABU Post UTME","Where is ABU Post UTME taken"],
+            "responses":["The venues for ABU Post are ,IAI ICT, DLC, Gym CBT Centre"]
+        },
+        {
+            "tag":"onlinedegree",
+            "patterns":["Is ABU Taking online Degree","Does ABU have any online course","Can I study in ABU online"],
+            "responses":["Yes, ABU has a reputable Distance Learning programme","Visit ABU Distance Learning Centre Website"]
+        },
+        {
+            "tag":"abunews",
+            "patterns":["How can get news about ABU","How do I know if PUTME registeration have started","How does ABU communicate with it's Students"],
+            "responses":["Updates are gotten from ABU special Bulletins and Notice Boards","Visit the ABU website","From Faculty or Department groups"]
+        },
+        {
+            "tag":"jamb",
+            "patterns":["Does Abu need jamb for diploma","Is Abu offering diploma in any course"],
+            "responses":["Jamb is not required but your SSCE wuth the minimum of 5 credits"]}
+    ]
+}

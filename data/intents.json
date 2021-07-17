@@ -1,0 +1,19 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns" : ["hey", "hi", "hello", "how are you", "good day", "greetings", "what's up", "how's it going"],
+            "response": ["Hello!", "Hey!", "What can I do for you", "ABUknow at your service"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["cya", "see you later", "goodbye", "have a good day", "i'm leaving"],
+            "response": ["Have a nice day", "Remember, I'm always here to help", "Talk to you later"]
+        },
+        {
+            "tag": "name",
+            "patterns": ["what is your name?", "do you have a name?", "who are you", "age?"],
+            "response": ["I'm ABUknow", "You can call me ABUknow!", "I am ABUknow, the encyclopedia of ABU :)"]
+        }
+    ]
+}
